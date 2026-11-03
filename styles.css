@@ -184,3 +184,11 @@ h1{font-size:clamp(52px,6.5vw,82px);font-weight:600;margin:25px 0 20px}
 .retail-bar-row>i>b{display:block;height:100%;background:linear-gradient(90deg,#8da978,#c5dfa0);border-radius:5px}
 .retail-bar-row>em{font:8px var(--mono);font-style:normal;color:var(--muted)}
 @media(max-width:720px){.second-project .project-details{order:2}.second-project .project-visual{order:1}}
+
+
+/* Personal identity lockup */
+.brand-lockup{display:flex;flex-direction:column;gap:3px;text-decoration:none;line-height:1}
+.brand-lockup strong{font:800 17px var(--display);letter-spacing:-.55px;color:var(--text)}
+.brand-lockup strong span{color:var(--accent)}
+.brand-lockup small{font:500 9px var(--mono);letter-spacing:2px;color:var(--accent)}
+@media(max-width:520px){.brand-lockup strong{font-size:14px}.brand-lockup small{font-size:8px;letter-spacing:1.5px}}
